@@ -1,0 +1,50 @@
+h1{
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+
+}
+body{
+    background: url(img/fondo.jpg) no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace, 'Silkscreen';
+    min-height: 100vh;
+}
+head{
+    background-color: black;
+    padding: 7px;
+    text-align: center;
+}
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255,255,255,.6);
+    display: flex;
+}
+
+#imagen{
+    width: 30%;
+}
+#palabra_clave{
+    height: 30px;
+}
+
+#palabra_clave span{
+    font-size: 30px;
+    border-bottom: 3px solid black;
+    width: 30px;
+    display: inline-block;
+    margin-right: 6px;
+}
+#letras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-top: 20px;
+}
+#letras button{
+    width: 40px;
+    height: 40px;
+}
